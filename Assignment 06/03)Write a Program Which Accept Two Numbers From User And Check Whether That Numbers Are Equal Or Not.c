@@ -25,7 +25,7 @@ int main()
    int iValue1=0,iValue2=0;
    BOOL bRet=FALSE;
    
-   printf("Enter Number: ");
+   printf("Enter Two Numbers: ");
    scanf("%d%d",&iValue1,&iValue2);
    
    bRet=ChkEqual(iValue1,iValue2);
