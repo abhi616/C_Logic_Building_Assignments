@@ -12,7 +12,7 @@ void Table(int iNo)
         iNo=-iNo;
       }
       
-      for(i;i<=10;i++)
+      for(i=0;i<=10;i++)
       {
         printf("%d ",iNo*i);
       }
