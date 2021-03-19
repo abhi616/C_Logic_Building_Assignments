@@ -4,7 +4,6 @@
 
 void Number(int iNo)
 {
-  int i=0;
       
       if(iNo<0)
       {
