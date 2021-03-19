@@ -6,6 +6,7 @@ int Factorial(int iNo)
 {
   int Fact=1;
       
+      //To Handle Negative Input
       if(iNo<0)
       {
         iNo=-iNo;
