@@ -4,7 +4,7 @@
 
 void Number(int iNo)
 {
-      
+      //To Handle Negative Input
       if(iNo<0)
       {
         iNo=-iNo;
