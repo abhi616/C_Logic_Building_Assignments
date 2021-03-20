@@ -1,3 +1,12 @@
+/*
+   Input:5
+   Output:15
+ 
+   Input:10
+   Output:945
+*/
+
+
 #include <stdio.h>
 
 //Compiler version gcc  6.3.0
@@ -6,6 +15,7 @@ int Odd_Factors_Mult(int iNo)
 {
    int Fact=1;
      
+   //To Handle Negative Input
       if(iNo<0)
       {
         iNo=-iNo;
