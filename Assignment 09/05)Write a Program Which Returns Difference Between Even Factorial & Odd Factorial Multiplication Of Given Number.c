@@ -1,3 +1,12 @@
+/*
+   Input:5
+   Output:-7  (8-15)
+
+   Input:10
+   Output:2895  (3840-945)
+*/
+
+
 #include <stdio.h>
 
 //Compiler version gcc  6.3.0
@@ -6,6 +15,7 @@ int Factorial_Diff(int iNo)
 {
    int E_Fact=1,O_Fact=1;
      
+    //To Handle Negative Input
       if(iNo<0)
       {
         iNo=-iNo;
