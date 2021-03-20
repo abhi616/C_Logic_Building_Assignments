@@ -11,7 +11,7 @@
 
 //Compiler version gcc  6.3.0
 
-int Odd_Factors_Mult(int iNo)
+int Odd_Factorial_Mult(int iNo)
 {
    int Fact=1;
      
@@ -39,7 +39,7 @@ int main()
   printf("Enter Number: ");
   scanf("%d",&iValue);
   
-  iRet=Odd_Factors_Mult(iValue);
+  iRet=Odd_Factorial_Mult(iValue);
   
   printf("\nOdd Factorials Multiplication Is = %d\n",iRet);
   
