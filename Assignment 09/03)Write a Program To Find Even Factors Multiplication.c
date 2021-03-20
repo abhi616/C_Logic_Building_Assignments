@@ -1,3 +1,12 @@
+/*
+  Input:5
+  Output:8  (4*2)
+
+  Input:-5
+  Output:8  (4*2)
+*/
+
+
 #include <stdio.h>
 
 //Compiler version gcc  6.3.0
@@ -6,6 +15,7 @@ int Even_Factors_Mult(int iNo)
 {
    int Fact=1;
      
+    //To Handle Negative Input
       if(iNo<0)
       {
         iNo=-iNo;
