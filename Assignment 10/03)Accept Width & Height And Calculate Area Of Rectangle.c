@@ -1,3 +1,8 @@
+/*
+    Input:5.3 9.78
+    Output:51.834
+*/
+
 #include <stdio.h>
 
 
@@ -7,7 +12,7 @@ double Rect_Area(float fHeight,float fWidth)
 {
    float Area=0.0;
      
-   Area=fHeight*fWidth;  //PI=3.14
+   Area=fHeight*fWidth;  
                              
   return Area;  
 }
