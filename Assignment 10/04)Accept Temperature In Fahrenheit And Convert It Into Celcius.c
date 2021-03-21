@@ -6,6 +6,7 @@
   Output:1.111
 */
 
+ //   1 Celcius=(Fahrenheit-32)*(0.555)
 
 #include <stdio.h>
 
