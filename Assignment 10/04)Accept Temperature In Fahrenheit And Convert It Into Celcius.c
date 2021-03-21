@@ -1,3 +1,12 @@
+/*
+  Input:10
+  Output:-12.221
+
+  Input:34
+  Output:1.111
+*/
+
+
 #include <stdio.h>
 
 
