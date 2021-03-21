@@ -1,5 +1,10 @@
-#include <stdio.h>
+/*
+   Input:5
+   Output:5000
+*/
 
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
