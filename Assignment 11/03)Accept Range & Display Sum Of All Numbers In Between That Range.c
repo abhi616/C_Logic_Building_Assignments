@@ -1,6 +1,12 @@
 /*
     Input:23 30
     Output:212
+
+    Input:-10 2
+    Output: Invalid Range
+
+    Input:98 58
+    Output: Invalid Range
 */
 
 
