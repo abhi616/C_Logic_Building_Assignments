@@ -1,6 +1,9 @@
 /*
     Input:23 35
     Output:24 26 28 30 32 34
+
+    Input:78 67
+    Output: Invalid Range
 */
 
 
@@ -11,6 +14,11 @@
 void RangeDisplayEven(int iStart,int iEnd)
 {
   
+   if(iStart>iEnd)
+   {
+     printf("\nInvalid Range...!\n");
+   }
+   
    for(;iStart<=iEnd;iStart++)
    {
      
