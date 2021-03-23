@@ -1,3 +1,15 @@
+/*
+   Input:2509
+   Output:It Contains Zero
+
+   Input:5789
+   Output:There Is No Zero
+
+   Input:-6590
+   Output:It Contains Zero
+*/
+
+
 #include <stdio.h>
 
 typedef int BOOL;
@@ -11,6 +23,7 @@ BOOL ChkZero(int iNo)
 {
    int Rem=0;
    
+   //To Handle Negative Input
    if(iNo<0)
     {
       iNo=-iNo;
