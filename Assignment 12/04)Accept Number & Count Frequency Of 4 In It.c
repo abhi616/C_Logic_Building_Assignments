@@ -1,5 +1,13 @@
-#include <stdio.h>
+/*
+   Input:7448
+   Output:2
 
+   Input:-9764
+   Output:1
+*/
+
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
@@ -7,6 +15,7 @@ int CountFour(int iNo)
 {
    int Rem=0,Cnt=0;
    
+   //To Handle Negative Input
    if(iNo<0)
     {
       iNo=-iNo;
