@@ -1,12 +1,21 @@
-#include <stdio.h>
+/*
+   Input:2345
+   Output:1
 
+   Input:4609
+   Output:0
+*/
+
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
 int CountTwo(int iNo)
 {
    int Rem=0,Cnt=0;
-   
+  
+   //To Handle Negative Input 
    if(iNo<0)
     {
       iNo=-iNo;
