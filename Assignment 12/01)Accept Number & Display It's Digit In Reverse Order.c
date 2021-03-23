@@ -35,6 +35,7 @@ void DisplayDigit(int iNo)
       printf("\n%d",Rem);      
     }
   
+   return;
 }
 
 int main()
