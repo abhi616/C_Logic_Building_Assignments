@@ -1,5 +1,18 @@
-#include <stdio.h>
+    //Display Difference Between Even And Odd Digits Sum
 
+/*
+   Input : 2395 
+   Output : -15 (2 - 17) 
+
+   Input : 1018 
+   Output : 6 (8 - 2) 
+
+   Input : 5733 
+   Output : -18 (0 - 18)
+*/
+
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
