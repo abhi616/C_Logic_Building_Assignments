@@ -1,5 +1,18 @@
-#include <stdio.h>
+    //Display Multiplication Of All Digits
 
+/*
+   Input:2395
+   Output:270  (5*9*3*2)
+  
+   Input:-1018
+   Output:0    (8*1*0*1)
+
+   Input:922432
+   Output:864   (2*3*4*2*2*9)
+*/
+
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
