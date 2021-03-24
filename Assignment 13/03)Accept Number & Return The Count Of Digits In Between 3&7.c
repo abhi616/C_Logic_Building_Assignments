@@ -1,5 +1,17 @@
-#include <stdio.h>
+     //To Print Count Of Digits In Between 3&7
 
+/*
+   Input:2395
+   Output:1
+  
+   Input:4521
+   Output:2
+
+   Input:9922
+   Output:0
+*/
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
