@@ -1,5 +1,16 @@
-#include <stdio.h>
+/*
+   Input:2395
+   Output:1
+  
+   Input:-1018
+   Output:2
 
+   Input:8462
+   Output:4
+*/
+
+
+#include <stdio.h>
 
 //Compiler version gcc  6.3.0
 
