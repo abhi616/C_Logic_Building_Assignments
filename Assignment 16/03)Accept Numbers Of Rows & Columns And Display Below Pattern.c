@@ -1,5 +1,5 @@
 /*
-  Input : iRow = 4 iCol = 4
+  Input : iRow = 4 iCol = 5
   
   Output : A A A A A
            B B B B B 
