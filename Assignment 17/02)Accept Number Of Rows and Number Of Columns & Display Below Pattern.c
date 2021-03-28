@@ -18,7 +18,7 @@ void Pattern(int iRow,int iCol)
   
   for(R=0;R<iRow;R++)
   {
-    for(C=0;C<iCol;C++)
+    for(C=0;C<iCol;C++,No=No+2)
      {
       
        if(R%2==0)
@@ -29,7 +29,7 @@ void Pattern(int iRow,int iCol)
           }
           
           printf("%-3d ",No);
-          No=No+2;
+          
         }
        else
        {
@@ -39,7 +39,7 @@ void Pattern(int iRow,int iCol)
           }
          
          printf("%-3d ",No);
-         No=No+2;
+         
        }
        
      }
