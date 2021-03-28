@@ -14,7 +14,7 @@
 
 void Pattern(int iRow,int iCol)
 {
-  int R,C,No=2;
+  int R,C,No=0;
   
   for(R=0;R<iRow;R++)
   {
