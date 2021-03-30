@@ -35,6 +35,7 @@ void Pattern(int iRow,int iCol)
       printf("\n");
    }
   
+  return;
 }
 
 int main()
