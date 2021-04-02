@@ -1,3 +1,12 @@
+/*
+   Input : iSize = 6 
+
+  Elements : 85 66 3 80 93 88 
+
+  Output : 53 (234 - 181) 
+*/
+
+
 #include <stdio.h>
 
 //Compiler version gcc  6.3.0
