@@ -55,7 +55,6 @@ int main()
   int iSize=0,iCnt=0,iValue1=0,iValue2=0;
   int *P=NULL;   
   
-  
   printf("Enter Number Of Elements: ");
   scanf("%d",&iSize); 
   
