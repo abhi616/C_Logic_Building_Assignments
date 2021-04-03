@@ -29,7 +29,7 @@
 
 void Range(int Arr[],int iLength,int iStart,int iEnd)
 {
-  int i=0,L_Occur=0;  
+  int i=0;  
     
    printf("\nElements In Between %d-%d: \n",iStart,iEnd);
      
@@ -80,9 +80,8 @@ int main()
        printf("\n•Enter Element %d : ",iCnt+1);
        scanf("%d",&P[iCnt]);              
     }
-   
-   Range(P,iSize,iValue1,iValue2);     
-   
+  
+   Range(P,iSize,iValue1,iValue2);       
       
    free(P);
     
