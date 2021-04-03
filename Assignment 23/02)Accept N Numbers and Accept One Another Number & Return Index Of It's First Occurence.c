@@ -76,18 +76,18 @@ int main()
    iRet=FirstOccurence(P,iSize,iValue);
    
    
-   if(iRet!=0)
-   {
-     printf("\nFirst Occurence Of %d = %d\n",iValue,iRet);
-   }
-  else
+   if(iRet==-1)
    {
      printf("\nDoesn't Contain %d In Entered Elements...!",iValue);
    }
+  else
+   {
+     printf("\nFirst Occurence Of %d = %d\n",iValue,iRet);
+   }
+     
+  free(P);
     
-   
-    free(P);
-    
-    getch();
+  getch();
+
   return 0;
 }
