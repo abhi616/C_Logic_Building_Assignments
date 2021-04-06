@@ -1,5 +1,14 @@
+/*
+    Input : F 
+    Output : TRUE 
+
+    Input : d 
+    Output : FALSE
+*/
+
 #include <stdio.h>
 #include<conio.h>
+
 //Compiler version gcc  6.3.0
 
 typedef int BOOL;
