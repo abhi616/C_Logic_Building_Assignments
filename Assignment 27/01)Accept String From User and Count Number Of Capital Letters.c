@@ -31,7 +31,7 @@ int main()
   char Arr[20]; 
   int iRet=0;
   
-  printf("Enter Character: ");
+  printf("Enter String: ");
   scanf("%[^'\n']s",&Arr);
   
   iRet=CountCapital(Arr);
