@@ -1,10 +1,16 @@
+/*
+    Input  : "Marv e llous"
+    Output : "Marvellous"
+*/
+
+
 #include <stdio.h>
 #include<conio.h>
 #include<string.h>
 
 //Compiler version gcc  6.3.0
 
-void StrCpyRev(char *Src,char *Dest)
+void StrCpyX(char *Src,char *Dest)
 {
 
   while(*Src!='\0')   
@@ -29,9 +35,9 @@ void StrCpyRev(char *Src,char *Dest)
 int main()
 {
   char Str1[30]="Marv  ellous ";
-  char Str2[30]="Marvellous";
+  char Str2[30]="";
   
-  StrCpyRev(Str1,Str2);
+  StrCpyX(Str1,Str2);
  
   printf("\nSource String = %s\n",Str1);
   printf("\nCopied String = %s\n",Str2);
