@@ -32,6 +32,7 @@ void StrCpyRev(char *Src,char *Dest)
   return;
 }
 
+
 int main()
 {
   char Str1[30]="Marvellous";
