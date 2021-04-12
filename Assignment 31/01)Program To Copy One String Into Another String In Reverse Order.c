@@ -1,3 +1,9 @@
+/*
+    Input  : Marvellous
+    Output : suollevraM
+*/
+
+
 #include <stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -29,7 +35,7 @@ void StrCpyRev(char *Src,char *Dest)
 int main()
 {
   char Str1[30]="Marvellous";
-  char Str2[30]="suollevraM";
+  char Str2[30]="";
   
   StrCpyRev(Str1,Str2);
  
