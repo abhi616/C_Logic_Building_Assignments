@@ -1,3 +1,19 @@
+/*
+  
+  Input  : Program
+
+  Output : 
+    
+          P  r  o  g  r  a  m  
+          P  r  o  g  r  a  
+          P  r  o  g  r  
+          P  r  o  g  
+          P  r  o  
+          P  r  
+          P  
+
+*/
+
 #include <stdio.h>
 #include<conio.h>
 

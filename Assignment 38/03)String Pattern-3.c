@@ -1,3 +1,14 @@
+/*
+  Input : Demo
+
+  Ouput : 
+         D      
+         D  e      
+         D  e  m      
+         D  e  m  o        
+
+*/
+
 #include <stdio.h>
 #include<conio.h>
 
