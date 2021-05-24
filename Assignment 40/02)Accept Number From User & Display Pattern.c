@@ -3,8 +3,6 @@
   Input  :
            Enter Number : 8759
 
-           Enter Row & Column Count : 4
-
  Output :
           8 7 5 9 
           8 7 5 9 
@@ -22,15 +20,14 @@ void Pattern(int iNo)
 {
    int i=0,j=0,Temp=0,C=0,Rev=0,Rem=0;
    
-   printf("\nEnter Row & Column Count : ");
-   scanf("%d",&C);
    
    printf("\n");
    
-   // Reverse The Number
+   // Reverse The Number & Also Find Count Of Digits In Given Number
    for(Temp=iNo;Temp>0;Temp=Temp/10)
    {
      Rev=Temp%10+Rev*10;
+     C++;
    }
   
    // Again Reverse That Number For Printing Pattern
