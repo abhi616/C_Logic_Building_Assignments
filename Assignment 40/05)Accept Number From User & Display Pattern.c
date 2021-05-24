@@ -1,9 +1,7 @@
 /*
   
     Input  : 
-            Enter Number : 8754
-
-            Enter Row & Column Count : 4
+            Enter Number : 8754       
     
     Output :
             4 
@@ -22,10 +20,13 @@ void Pattern(int iNo)
 {
   int i=0,j=0,C=0,Rem=0,Temp=0;
   
-  printf("\nEnter Row & Column Count : ");
-  scanf("%d",&C);
-  
   printf("\n");
+  
+  // Find Total Digits Count In Given Number
+  for(Temp=iNo;Temp>0;Temp=Temp/10)
+  {
+    C++;
+  }
   
   for(i=0;i<C;i++)
   {
