@@ -1,7 +1,9 @@
 /*
+
    Input:5.3
    Output:88.2026
-/*
+
+*/
 
 
 #include <stdio.h>
