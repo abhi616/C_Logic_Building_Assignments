@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include<conio.h>
 
 //Compiler version gcc  6.3.0
 
 void Pattern(int iNo)
 {
   int i=0;
+
    if(iNo>0)
     {
       
@@ -37,5 +39,6 @@ int main()
   
   Pattern(iValue);
   
+  getch();
   return 0;
 }
