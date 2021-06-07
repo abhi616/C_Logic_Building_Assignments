@@ -15,6 +15,7 @@ void Accept(int iNo)
 int main()
 {
    int iValue=0;
+
     iValue=5;
    
    Accept(iValue);
